@@ -1,0 +1,12 @@
+.btn-wrapper {
+  margin-bottom: 2rem;
+}
+
+.btn-menu {
+  flex-basis: 32%;
+}
+
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+}

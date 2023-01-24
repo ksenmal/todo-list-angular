@@ -1,0 +1,26 @@
+<div class="btn-wrapper">
+  <button
+    class="btn btn-menu"
+    type="button"
+    [class.active]="filter === 'all'"
+    (click)="setFilter.emit('all')"
+  >
+    All
+  </button>
+  <button
+    class="btn btn-menu"
+    type="button"
+    [class.active]="filter === 'done'"
+    (click)="setFilter.emit('done')"
+  >
+    Done
+  </button>
+  <button
+    class="btn btn-menu"
+    type="button"
+    [class.active]="filter === 'active'"
+    (click)="setFilter.emit('active')"
+  >
+    Active
+  </button>
+</div>

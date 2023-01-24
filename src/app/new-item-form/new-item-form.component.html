@@ -1,0 +1,19 @@
+<form>
+  <label for="newItem">What would you like to do today?</label>
+  <input
+    type="text"
+    id="newItem"
+    placeholder="Add a new item"
+    class="lg-text-input"
+    #newItem
+    (keyup.enter)="addItem.emit(newItem.value); newItem.value = ''"
+  />
+
+  <button
+    class="btn-primary"
+    type="submit"
+    (click)="addItem.emit(newItem.value); newItem.value = ''"
+  >
+    Add
+  </button>
+</form>

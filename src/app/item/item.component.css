@@ -1,0 +1,63 @@
+.item {
+  padding: 0.5rem 0 0 0;
+  text-align: left;
+  font-size: 1.2rem;
+  list-style: none;
+}
+
+.btn-wrapper {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  flex-basis: 49%;
+}
+
+.btn-warn {
+  background-color: #ca3c3c;
+  color: #fff;
+  border-color: #bd2130;
+}
+
+.btn-warn:hover {
+  background-color: #bd2130;
+}
+
+.btn-warn:active {
+  background-color: #ca3c3c;
+  border-color: #000;
+}
+
+.btn-save {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.btn-save:hover {
+  background-color: #444242;
+}
+
+.btn-save:focus {
+  background-color: #fff;
+  color: #000;
+}
+
+.sm-text-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid #555;
+  display: block;
+  font-size: 1.2rem;
+  font-family: inherit;
+}
+
+.input-group {
+  display: flex;
+}
+
+.input-group label {
+  padding: 0.5rem;
+  border: 2px solid white;
+}
